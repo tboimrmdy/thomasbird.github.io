@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(75, 75, 75);
+	color: rgb(0, 0, 0);
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	background-color: rgb(170, 0, 0);
+	color: rgb(255, 255, 255);
+	height: 120px;
+	padding-top: 30px;
+	padding-left: 3em;
+	text-align: center;
+}
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	overflow: auto;
+}
+nav {
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em;
+	float: left;
+	width: 190px;
+    height: 100%;
+	background-color: #ff9d9d;
+}
+nav a {
+	text-decoration: none;
+}
+h1 {
+	margin-top: 0%;
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+}
+h2 {
+	color: rgb(255, 80, 80);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #330000;
+}
+.title {
+	color: rgb(255, 80, 80);
+}
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 2em;
+	margin-left: 190px;
+	background-color: #FFFFFF;
+}
+#wrapper {
+	background-color: #e39090;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 3px 3px 3px #1d1d1d;
+	border: 1px solid #330000;
+	background-image: linear-gradient(to bottom, #FFFFFF, #e39090);
+	background-repeat: no-repeat;
+}
+#quadplexhero {
+	height: 300px;
+	background-image: url(quadplex.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+* {
+	box-sizing: border-box;
+}
+#special {
+	clear: both;
+}
+table {
+	border: 2px solid #cc3333;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #cc3333;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: #f0bdbd;
+}
+label {
+	float: left;
+	display:block;
+	text-align: right;
+	padding-right: 5px;
+	width: 140px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
